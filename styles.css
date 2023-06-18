@@ -1,6 +1,12 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/cooking-pattern-design_1284-545.jpg?w=740&t=st=1687082349~exp=1687082949~hmac=258930afe11a5e98f138158fa15eeb371e4e014a77c3ed0d5a58f451d76ca540);
+}
 h1 {
     text-align: center;
+    font-size: 50px;
 }
+
+
 .images-grid {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -11,6 +17,12 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+figcaption {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 23px;
 }
 .images-wrapper {
     justify-self: center;
@@ -64,4 +76,9 @@ figure {
     .images-grid {
         grid-template-columns: 100%;
     }
+}
+.credits {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 50px;
 }
