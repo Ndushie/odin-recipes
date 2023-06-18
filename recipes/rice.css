@@ -1,14 +1,6 @@
-h1 {
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
+body {
+    background-image: url(https://img.freepik.com/free-vector/outlined-kitchen-elements-background_1116-23.jpg?w=740&t=st=1687097028~exp=1687097628~hmac=b10e4f7aceaf00096e62372a9aa24803f16571879188178c7c1b58eba540d5e2);
 }
-.resized-image {
-    width: 400px;
-    height: 400px;
-    transition: filter 0.2s ease-in-out;
-}
-
 .main {
     width: 100%;
     background-color: burlywood;
@@ -18,26 +10,32 @@ h1 {
     max-width: 800px;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+    width: 400px;
+    height: 400px;
+    transition: filter 0.2s ease-in-out;
+} 
 
-body {
-    background-image: url(https://img.freepik.com/premium-vector/restaurant-chef-cute-hand-drawn-seamless-pattern-illustration_192280-36.jpg?w=740);
-}
 h2, h3 {
     font-family: 'Caveat', cursive;
     font-size: 50px;
     text-align: center;
- }
+}
 
- p, li {
+p, li {
     font-size: 20px;
- }
+}
 
- .info-grid p {
+.info-grid p {
     font-size: 30px;
     margin: 0;
   }
@@ -54,7 +52,7 @@ h2, h3 {
     place-items: center;
   }
 
- hr {
+hr {
     height: 1px;
     border: 0px;
     margin-top: -25px;
