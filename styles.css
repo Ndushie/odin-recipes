@@ -82,3 +82,40 @@ figcaption {
     text-align: center;
     font-size: 50px;
 }
+
+.avatar-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    border: 5px solid #cccccc;
+    justify-content: center;
+    bottom: 2%;
+    right: 30%;
+    left: 30%;
+    width: 30%;
+}
+
+.avatar-text {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Caveat', cursive;
+}
+
+.avatar-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.avatar-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
