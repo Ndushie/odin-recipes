@@ -7,6 +7,11 @@
     max-width: 800px;
 }
 
+.main img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-image: url(https://img.freepik.com/premium-vector/food-seamless-pattern-black-white_350552-142.jpg?w=740);
 }
